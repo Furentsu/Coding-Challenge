@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+.container {
+    width: 1200px;
+    height: 850px;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2.5%;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header > .logo {
+    width: 235px;   
+    margin: 100px 0 0;
+}
+
+header h1 {
+    font-size: 33px;
+    color: limegreen;
+}
+
+nav {
+    background: limegreen;
+    padding: 12px;
+    margin: 5px 80px ;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav .button {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+}
+
+nav .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+nav .button:active {
+    background-color: whitesmoke;
+    box-shadow: 0 2px rgba(0,0,0,0.24);
+    transform: translateY(1px);
+}
+
+.list .user {
+    width: calc(100% - 160px);
+    margin: auto;
+    color: white;
+}
+
+
+.list .user h2 {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+
+.list .user p {
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 5px 0 2px;
+    line-height: 24px;
+}
+
+.list .user p::before {
+    content: '\0021A6';
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.user {
+    padding-top: 15px;
+}
+
+.list .user hr {
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+.list .user p::after {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.list .user-1 p::after {
+    content: "\1F615";
+    
+}
+
+.list .user-2 p::after {
+    content: "\1F60C";
+    
+}
+
+.list .user-3 p::after {
+    content: "\1F616";
+}
+
+.user-1 > hr {
+    background: rgb(231, 168, 50);
+    width: calc(100% - 60%);
+}
+
+.user-2 > hr {
+    background: limegreen;
+    width: calc(100% - 40%);
+}
+
+.user-3 > hr {
+    background: rgb(201, 64, 64);
+    width: calc(100% - 80%);
+}
+
